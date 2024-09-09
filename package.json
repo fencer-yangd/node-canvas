@@ -31,7 +31,6 @@
     "test-server": "node test/server.js",
     "generate-wpt": "node ./test/wpt/generate.js",
     "test-wpt": "mocha test/wpt/generated/*.js",
-    "install": "node-pre-gyp install --fallback-to-build --update-binary",
     "dtslint": "dtslint types"
   },
   "binary": {
